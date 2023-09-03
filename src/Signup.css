@@ -1,0 +1,41 @@
+.sign-up-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #03cafc;
+}
+.signup-card {
+  width: 300px;
+  height: 360px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.signup-card h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.signup-card form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0;
+}
+.signup-card form button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+.social {
+  margin-top: 14px;
+}
+
+svg {
+  margin: 10px;
+  color: #0077b5; /* Facebook blue */
+}
